@@ -1,0 +1,65 @@
+.center
+{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+section
+{
+    max-width: 500px;
+    background-color: black;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+input
+{
+    width: 100%;
+    padding: 30px;
+    border: none;
+    background-color: rgb(48, 48, 48);
+    font-size: 30px;
+    outline: none;
+    color: white;
+    text-align: left;
+}
+button
+{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(139, 136, 136);
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 20px;
+
+}
+button:hover
+{
+    background-color: rgb(168, 166, 166);
+}
+button:focus
+
+{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.btn
+{
+    background-color: rgb(254, 169, 11);
+    color: black;
+}
+.btn:hover
+{
+    background-color: rgb(254, 169, 11);
+}
